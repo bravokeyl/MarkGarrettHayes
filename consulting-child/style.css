@@ -1,0 +1,120 @@
+/*
+    Template: consulting
+    Theme Name: Consulting Child Theme
+    Theme URI: http://consulting.stylemixthemes.com/
+    Author: bravokeyl
+    Author URI: https://bravokeyl.com
+    Description: Consulting - Business and Finance WordPress theme. Using Consluting you can easily create a modern website with real content. Easily edit the real content and compose the page layout with drag & drop page builder Consulting is the best ever finance, consulting, brokerage WordPress theme. It’s fully Responsive and Easy to Customize using intuitive Drag & Drop Visual Composer and Theme Options panel in WordPress Customizer.
+    Version: 1.1
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Tags: blue, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, fluid-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, sticky-post, translation-ready
+    Text Domain: consulting-child-theme
+*/
+.bk-address {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.bk-address li {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 0 14px;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+.bk-address li .icon {
+    float: left;
+    width: 16px;
+    line-height: 20px;
+    font-size: 16px;
+    margin-right: 14px;
+    text-align: center;
+    color: rgba(253, 228, 40, 0.5);
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+.bk-address li .icon .stm-email {
+    font-size: 12px;
+    padding: 2px 0 0;
+}
+.bk-address li .text {
+   overflow: hidden;
+   font-size: 13px;
+   line-height: 20px;
+}
+.bk-address li .text p {
+   margin: 0;
+   opacity: 0.5;
+}
+.bk-address li .text a,
+.bk-link-widget a,
+.bk-link-widget a:hover {
+    color: #34dfe5;
+}
+.bk-address:hover li .icon {
+    color: #fde428;
+}
+.bk-topbar-office-location {
+    display: inline-block;
+    background: #fde428;
+    float: right;
+    color: #002e5b;
+    vertical-align: middle;
+    position: relative;
+    line-height: 50px;
+    padding: 0px 23px;
+}
+.post_details_wr .stm_post_details .comments_num {
+  display: none;
+}
+body.page .vc_row.overlay_4.z_index1:before {
+  background: rgba(0, 46, 91, 0.7)!important;
+  z-index: 1;
+}
+.zindex_100 {
+  z-index: 100;
+}
+.logo.media-left.media-middle img {
+  margin-left: -6px;
+}
+#footer .widgets_row .footer_logo a img {
+  margin-top: -25px;
+  margin-left: -7px;
+}
+body span.wpcf7-not-valid-tip {
+  display: block;
+  color: #fde428;
+  margin-top: 5px;
+}
+.bk-link-widget span {
+  opacity: 0.5;
+}
+.bk-link-img {
+  width: 80px;
+  max-width: 80px;
+  float: left;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.bk-link-icon {
+  margin-left: 10px;
+  margin-top: -6px;
+}
+body div.wpcf7-response-output.wpcf7-validation-errors {
+  background: #fde428;
+  color: #002e5b;
+}
+#footer .footer_widgets .widget .widget_title {
+  font-size: 21px;
+}
+@media only screen and (max-width: 768px){
+  body .mobile_header .icon_texts {
+      padding: 40px 23px;
+  }
+}
