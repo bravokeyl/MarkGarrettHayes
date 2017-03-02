@@ -113,6 +113,18 @@ body div.wpcf7-response-output.wpcf7-validation-errors {
 #footer .footer_widgets .widget .widget_title {
   font-size: 21px;
 }
+.bk-my-elearning-menu-item,
+.logged-in .bk-login-menu-item {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+.logged-in .bk-my-elearning-menu-item,
+.bk-login-menu-item {
+  display: block;
+  visibility: visible;;
+  opacity: 1;
+}
 @media only screen and (max-width: 768px){
   body .mobile_header .icon_texts {
       padding: 40px 23px;
