@@ -276,7 +276,7 @@ if(!empty($autoplay_carousel) and $autoplay_carousel == 'yes') {
 					dots: false,
 					infinite: true,
 					<?php echo $opt; ?>
-					autoplaySpeed: 7000,
+					autoplaySpeed: 9000,
 					autoplay: <?php echo esc_js($autoplay_carousel_js); ?>,
 					slidesToShow: <?php echo esc_js( $per_row ); ?>,
 					cssEase: "cubic-bezier(0.455, 0.030, 0.515, 0.955)",
